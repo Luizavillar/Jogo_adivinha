@@ -1,0 +1,55 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:#BF8173; 
+}
+
+.game-container {
+    background-color: #F2D5E5; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+    width: 300px;
+}
+
+.botao {
+    background-color: #8C2336; 
+    color: white; 
+    border: none;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.botao:hover {
+    background-color: #D93662;
+}
+
+.input-numero {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    box-sizing: border-box; 
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+}
+
+.input-numero:focus {
+    outline: none; 
+    border-color: #D93662; 
+}
